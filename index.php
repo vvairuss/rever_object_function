@@ -1,6 +1,6 @@
 <?php
 
-// We hav few same objects where property next are new object
+// We have a few same objects where property "next" are new object
 
 // Example:
 class obj
@@ -22,7 +22,7 @@ $a->next = $b;
 $b->next = $c;
 $c->next = $d;
 
-// Need function that will rever object tree: first will be last and last will be first.
+// Need make function that will revert object tree: first will be last and last will be first.
 
 // Solution
 
